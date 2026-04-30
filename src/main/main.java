@@ -9,6 +9,10 @@ package main;
  * @author Microsoft
  */
 
+import vista.vistatrabajo;
 public class main {
-    
+    public static void main(String[] args) {
+        vistatrabajo vista = new vistatrabajo();
+        vista.setVisible(true);
+    }
 }

@@ -8,6 +8,19 @@ package vista;
  *
  * @author Microsoft
  */
-public class vistatrabajo {
-    
+
+
+import javax.swing.*;
+
+public class vistatrabajo extends JFrame {
+
+    public vistatrabajo() {
+        setTitle("Gestión de Tareas");
+        setSize(400, 300);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
+
+        JPanel panel = new JPanel();
+        add(panel);
+    }
 }
