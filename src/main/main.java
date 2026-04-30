@@ -4,15 +4,18 @@
  */
 package main;
 
-/**
- *
- * @author Microsoft
- */
-
 import vista.vistatrabajo;
+import modelo.lista;
+import controlador.tareacontrolador;
+
 public class main {
     public static void main(String[] args) {
+
         vistatrabajo vista = new vistatrabajo();
+        lista modelo = new lista();
+
+        tareacontrolador controlador = new tareacontrolador(vista, modelo);
+
         vista.setVisible(true);
     }
 }
